@@ -1,0 +1,84 @@
+const express = require("express");
+const { getConnection } = require("../config/database");
+
+const router = express.Router();
+
+router.get("/health", async (req, res) => {
+  let connection;
+
+  try {
+    connection = await getConnection();
+
+    const result = await connection.execute(`
+      SELECT 
+        USER AS USUARIO,
+        SYS_CONTEXT('USERENV', 'CON_NAME') AS CONTENEDOR,
+        SYSDATE AS FECHA_SERVIDOR
+      FROM dual
+    `);
+
+    res.json({
+      success: true,
+      message: "Conexión exitosa con Oracle",
+      data: result.rows[0],
+    });
+  } catch (error) {
+    console.error("Error conectando a Oracle:", error);
+
+    res.status(500).json({
+      success: false,
+      message: "Error conectando a Oracle",
+      error: error.message,
+    });
+  } finally {
+    if (connection) {
+      await connection.close();
+    }
+  }
+});
+
+router.get("/conteos", async (req, res) => {
+  let connection;
+
+  try {
+    connection = await getConnection();
+
+    const result = await connection.execute(`
+      SELECT *
+      FROM (
+          SELECT 'DEPARTAMENTO' AS TABLA, COUNT(*) AS CANTIDAD FROM DEPARTAMENTO
+          UNION ALL SELECT 'MUNICIPIO', COUNT(*) FROM MUNICIPIO
+          UNION ALL SELECT 'CENTRO', COUNT(*) FROM CENTRO
+          UNION ALL SELECT 'ESCUELA', COUNT(*) FROM ESCUELA
+          UNION ALL SELECT 'UBICACION', COUNT(*) FROM UBICACION
+          UNION ALL SELECT 'REGISTRO', COUNT(*) FROM REGISTRO
+          UNION ALL SELECT 'CORRELATIVO', COUNT(*) FROM CORRELATIVO
+          UNION ALL SELECT 'EXAMEN', COUNT(*) FROM EXAMEN
+          UNION ALL SELECT 'PREGUNTAS', COUNT(*) FROM PREGUNTAS
+          UNION ALL SELECT 'PREGUNTAS_PRACTICO', COUNT(*) FROM PREGUNTAS_PRACTICO
+          UNION ALL SELECT 'RESPUESTA_USUARIO', COUNT(*) FROM RESPUESTA_USUARIO
+          UNION ALL SELECT 'RESPUESTA_PRACTICO_USUARIO', COUNT(*) FROM RESPUESTA_PRACTICO_USUARIO
+      )
+      ORDER BY TABLA
+    `);
+
+    res.json({
+      success: true,
+      data: result.rows,
+    });
+  } catch (error) {
+    console.error("Error consultando conteos:", error);
+
+    res.status(500).json({
+      success: false,
+      message: "Error consultando conteos",
+      error: error.message,
+    });
+  } finally {
+    if (connection) {
+      await connection.close();
+    }
+  }
+});
+
+module.exports = router;
