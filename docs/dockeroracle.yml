@@ -13,21 +13,5 @@ services:
       - ./database/init:/container-entrypoint-initdb.d
     restart: unless-stopped
 
-  backend:
-    build:
-      context: ./backend
-      dockerfile: Dockerfile
-    container_name: sbd1_proyecto2_api
-    ports:
-      - "3000:3000"
-    environment:
-      PORT: 3000
-      DB_USER: CEM_USER
-      DB_PASSWORD: cem123
-      DB_CONNECT_STRING: oracle-db:1521/XEPDB1
-    depends_on:
-      - oracle-db
-    restart: unless-stopped
-
 volumes:
   oracle-proyecto2-data:

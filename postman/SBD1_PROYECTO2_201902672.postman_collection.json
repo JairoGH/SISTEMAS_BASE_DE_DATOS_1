@@ -1,0 +1,940 @@
+{
+	"info": {
+		"_postman_id": "9708f944-872d-4e77-a73d-1d1099f5a1cf",
+		"name": "SBD1_PROYECTO2_201902672",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json",
+		"_exporter_id": "49367844",
+		"_collection_link": "https://cryosat-participant-21561609-4019109.postman.co/workspace/59216a5c-39c1-4771-8208-a2c736bef31c/collection/49367844-9708f944-872d-4e77-a73d-1d1099f5a1cf?action=share&source=collection_link&creator=49367844"
+	},
+	"item": [
+		{
+			"name": "Verificacion API",
+			"item": [
+				{
+					"name": "ON",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/"
+					},
+					"response": [
+						{
+							"name": "ON",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": "http://localhost:3000/"
+							},
+							"_postman_previewlanguage": "",
+							"header": [],
+							"cookie": [
+								{
+									"expires": "Invalid Date",
+									"domain": "",
+									"path": ""
+								}
+							],
+							"body": ""
+						}
+					]
+				},
+				{
+					"name": "Conteo Carga Datos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/db/conteos"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD CENTROS",
+			"item": [
+				{
+					"name": "Obtener todos los centros",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/centros"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener centro por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/centros/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Centro",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Centro de Evaluación Prueba 2\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/centros"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Centro",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Centro de Evaluación Actualizado\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/centros/4"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Centro",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/centros/7"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD DEPARTAMENTO",
+			"item": [
+				{
+					"name": "Obtener todos los departamentos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/departamentos"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener departamento por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/departamentos/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Departamento",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Departamento Prueba\",\n  \"codigo\": \"99\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/departamentos"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Departamento",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Departamento Actualizado\",\n  \"codigo\": \"98\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/departamentos/4"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Departamento",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/departamentos/4"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD ESCUELA",
+			"item": [
+				{
+					"name": "Obtener todas las escuelas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/escuelas"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Escuelas por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/escuelas/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Escuela",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Escuela de Manejo Prueba\",\n  \"direccion\": \"Zona 1, Ciudad de Guatemala\",\n  \"acuerdo\": \"ESC-PRUEBA-001\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/escuelas"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Escuela",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Escuela de Manejo Actualizada\",\n  \"direccion\": \"Zona 5, Ciudad de Guatemala\",\n  \"acuerdo\": \"ESC-PRUEBA-002\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/escuelas/4"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Escuela",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/escuelas/4"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD MUNICIPIO",
+			"item": [
+				{
+					"name": "Obtener todos los Municipios",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "GET",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/municipios"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Municipio por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/municipios/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Municipio",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Municipio Prueba\",\n  \"codigo\": \"9901\",\n  \"departamento_id_departamento\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/municipios"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Municipio",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nombre\": \"Municipio Actualizado\",\n  \"codigo\": \"9902\",\n  \"departamento_id_departamento\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/municipios/6"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Municipio",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/municipios/6"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD UBICACION",
+			"item": [
+				{
+					"name": "Obtener todas las Ubicaciones",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/ubicaciones"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Ubicacion por ID/ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/ubicaciones/1/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Ubicacion",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"escuela_id_escuela\": 5,\n  \"centro_id_centro\": 5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/ubicaciones"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Ubicacion",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nueva_escuela_id_escuela\": 5,\n  \"nuevo_centro_id_centro\": 5\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/ubicaciones/5/5"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Ubicacion",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/ubicaciones/5/5"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD REGISTRO",
+			"item": [
+				{
+					"name": "Obtener todos los Registros",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/registros"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Registros por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/registros/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Registro",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"ubicacion_escuela_id_escuela\": 999,\n  \"ubicacion_centro_id_centro\": 999,\n  \"municipio_id_municipio\": 1,\n  \"municipio_departamento_id_departamento\": 1,\n  \"fecha\": \"2025-01-20\",\n  \"tipo_tramite\": \"Licencia de Conducir\",\n  \"tipo_licencia\": \"A\",\n  \"nombre_completo\": \"Registro Inválido\",\n  \"genero\": \"M\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/registros/"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Registro",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"ubicacion_escuela_id_escuela\": 1,\n  \"ubicacion_centro_id_centro\": 2,\n  \"municipio_id_municipio\": 2,\n  \"municipio_departamento_id_departamento\": 1,\n  \"fecha\": \"2025-01-21\",\n  \"tipo_tramite\": \"Renovación de Licencia\",\n  \"tipo_licencia\": \"B\",\n  \"nombre_completo\": \"Persona de Prueba Actualizada\",\n  \"genero\": \"F\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/registros/6"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Registro",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/registros/6"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD CORRELATIVO",
+			"item": [
+				{
+					"name": "Obtener todos los Correlativos",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/correlativos"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Correlativo por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/correlativos/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Correlativo",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"fecha\": \"2025-01-25\",\n  \"no_examen\": 99\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/correlativos"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Correlativo",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"fecha\": \"2025-01-26\",\n  \"no_examen\": 100\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/correlativos/6"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Correlativo",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/correlativos/6"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD EXAMEN",
+			"item": [
+				{
+					"name": "Obtener todos los Examenes",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/examenes"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Examen por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/examenes/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Examen",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"registro_id_registro\": 1,\n  \"correlativo_id_correlativo\": 1\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/examenes"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Examen",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"registro_id_registro\": 2,\n  \"correlativo_id_correlativo\": 2\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/examenes/6"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Examen",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/examenes/6"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD PREGUNTAS",
+			"item": [
+				{
+					"name": "Obtener todas las Preguntas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/preguntas"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Preguntas por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/preguntas/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Pregunta",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"pregunta_texto\": \"¿Qué debe hacer antes de cambiar de carril?\",\n  \"respuesta_a\": \"Acelerar sin mirar\",\n  \"respuesta_b\": \"Encender las luces altas\",\n  \"respuesta_c\": \"Revisar espejos y usar pidevías\",\n  \"respuesta_d\": \"Frenar completamente\",\n  \"respuesta_correcta\": \"C\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/preguntas"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Pregunta",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"pregunta_texto\": \"¿Qué debe hacer antes de cambiar de carril en una vía transitada?\",\n  \"respuesta_a\": \"Acelerar sin mirar\",\n  \"respuesta_b\": \"Cambiar rápidamente sin avisar\",\n  \"respuesta_c\": \"Revisar espejos, punto ciego y usar pidevías\",\n  \"respuesta_d\": \"Detenerse en medio de la vía\",\n  \"respuesta_correcta\": \"C\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/preguntas/5"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Pregunta",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/preguntas/5"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD PREGUTA PRACTICO",
+			"item": [
+				{
+					"name": "Obtener todas las Preguntas P",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/preguntas-practico"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Preguntas P por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/preguntas-practico/4"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Pregunta Practica",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"pregunta_texto\": \"Realizar cambio de carril usando espejos, pidevías y revisión de punto ciego\",\n  \"punteo\": 20\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/preguntas-practico"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Pregunta Practica",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"pregunta_texto\": \"Realizar cambio de carril de forma segura usando espejos, pidevías y revisión de punto ciego\",\n  \"punteo\": 25\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/preguntas-practico/5"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Pregunta Practica",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/preguntas-practico/9"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD RESPUESTA USUARIO",
+			"item": [
+				{
+					"name": "Obtener todas las Respuestas Usuario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/respuestas-usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Respuesta Usuario por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/respuestas-usuario/pregunta/1/examen/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear Respuesta Usuario",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"preguntas_id_pregunta\": 3,\n  \"examen_id_examen\": 3,\n  \"respuesta\": \"C\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/respuestas-usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Respuesta",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"respuesta\": \"A\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/respuestas-usuario/pregunta/3/examen/3"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Respuesta Usuario",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/respuestas-usuario/pregunta/3/examen/3"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CRUD RESPUESTA PRACTICO USUARIO",
+			"item": [
+				{
+					"name": "Obtener todas las RespuestaPracticoUsuario",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/respuestas-practico-usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Obtener Respuesta por ID",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/respuestas-practico-usuario/pregunta-practico/1/examen/1"
+					},
+					"response": []
+				},
+				{
+					"name": "Crear respuesta practica",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"preguntas_practico_id_pregunta_practico\": 2,\n  \"examen_id_examen\": 3,\n  \"nota\": 12\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/respuestas-practico-usuario"
+					},
+					"response": []
+				},
+				{
+					"name": "Actualizar Respuesta Practica",
+					"request": {
+						"method": "PUT",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"nota\": 14\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:3000/api/respuestas-practico-usuario/pregunta-practico/2/examen/3"
+					},
+					"response": []
+				},
+				{
+					"name": "Eliminar Respuesta Practico",
+					"request": {
+						"method": "DELETE",
+						"header": [],
+						"url": "http://localhost:3000/api/respuestas-practico-usuario/pregunta-practico/2/examen/3"
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "CONSULTAS",
+			"item": [
+				{
+					"name": "CONSULTA 1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/consultas/estadisticas"
+					},
+					"response": []
+				},
+				{
+					"name": "CONSULTA 2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/consultas/ranking"
+					},
+					"response": []
+				},
+				{
+					"name": "CONSULTA 3",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:3000/api/consultas/dificultad-preguntas"
+					},
+					"response": []
+				},
+				{
+					"name": "CONSULTA 2 REPROBADOS",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/api/consultas/ranking?estado=REPROBADO",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"api",
+								"consultas",
+								"ranking"
+							],
+							"query": [
+								{
+									"key": "estado",
+									"value": "REPROBADO"
+								}
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}

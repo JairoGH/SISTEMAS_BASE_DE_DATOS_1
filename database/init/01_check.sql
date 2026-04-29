@@ -1,0 +1,34 @@
+SELECT USER AS usuario_actual FROM dual;
+
+SELECT table_name
+FROM user_tables
+ORDER BY table_name;
+
+SELECT constraint_type, COUNT(*) AS cantidad
+FROM user_constraints
+GROUP BY constraint_type
+ORDER BY constraint_type;
+
+SELECT 'CENTRO' AS tabla, COUNT(*) AS cantidad FROM centro
+UNION ALL
+SELECT 'ESCUELA', COUNT(*) FROM escuela
+UNION ALL
+SELECT 'DEPARTAMENTO', COUNT(*) FROM departamento
+UNION ALL
+SELECT 'MUNICIPIO', COUNT(*) FROM municipio
+UNION ALL
+SELECT 'UBICACION', COUNT(*) FROM ubicacion
+UNION ALL
+SELECT 'REGISTRO', COUNT(*) FROM registro
+UNION ALL
+SELECT 'CORRELATIVO', COUNT(*) FROM correlativo
+UNION ALL
+SELECT 'EXAMEN', COUNT(*) FROM examen
+UNION ALL
+SELECT 'PREGUNTAS', COUNT(*) FROM preguntas
+UNION ALL
+SELECT 'PREGUNTAS_PRACTICO', COUNT(*) FROM preguntas_practico
+UNION ALL
+SELECT 'RESPUESTA_USUARIO', COUNT(*) FROM respuesta_usuario
+UNION ALL
+SELECT 'RESPUESTA_PRACTICO_USUARIO', COUNT(*) FROM respuesta_practico_usuario;
