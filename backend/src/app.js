@@ -12,6 +12,9 @@ const correlativoRoutes = require("./routes/correlativo.routes");
 const examenRoutes = require("./routes/examen.routes");
 const preguntaRoutes = require("./routes/pregunta.routes");
 const preguntaPracticoRoutes = require("./routes/preguntaPractico.routes");
+const respuestaUsuarioRoutes = require("./routes/respuestaUsuario.routes");
+const respuestaPracticoUsuarioRoutes = require("./routes/respuestaPracticoUsuario.routes");
+const consultasRoutes = require("./routes/consultas.routes");
 
 const app = express();
 
@@ -30,6 +33,9 @@ app.use("/api/correlativos", correlativoRoutes);
 app.use("/api/examenes", examenRoutes);
 app.use("/api/preguntas", preguntaRoutes);
 app.use("/api/preguntas-practico", preguntaPracticoRoutes);
+app.use("/api/respuestas-usuario", respuestaUsuarioRoutes);
+app.use("/api/respuestas-practico-usuario", respuestaPracticoUsuarioRoutes);
+app.use("/api/consultas", consultasRoutes);
 
 // Ruta raíz para verificar que la API está funcionando
 app.get("/", (req, res) => {

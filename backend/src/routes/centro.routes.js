@@ -7,7 +7,7 @@ const {
   createCentro,
   updateCentro,
   deleteCentro,
-} = require("../controllers/centro.controller.js");
+} = require("../controllers/centro.controller");
 
 router.get("/", getCentros);
 router.get("/:id", getCentroById);
