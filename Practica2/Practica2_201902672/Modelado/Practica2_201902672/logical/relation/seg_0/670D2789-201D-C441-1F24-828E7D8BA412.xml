@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="EXAMEN_CORRELATIVO_FK" directorySegmentName="seg_0" id="670D2789-201D-C441-1F24-828E7D8BA412">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>1B93CAA7-FEAF-47BD-DE92-E2F5D4BDFFE3</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<sourcePk>84B9DA21-2099-617A-BCD6-49B6C6F5E073</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>AEA35405-3E44-6BC3-D80E-3A77E5198488</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>86FFEB1E-23A9-C569-4C27-CCF24CE455C0</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

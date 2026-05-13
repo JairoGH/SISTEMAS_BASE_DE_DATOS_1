@@ -1,0 +1,104 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B6F642FD-9528-D144-F022-35E67B48C9A2" name="RESPUESTA USUARIO">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>00A57DE3-C5CF-86AD-A0EA-33044724A47C</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID RESPUESTA USUARIO" id="34044E04-9A83-2DBB-4D54-3A78EA3E9FF4">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>A8840EB9-0318-85E6-1CD1-83792057D0B7</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID PREGUNTA" id="97367D1C-0CE2-541E-EFA1-829110AD7F45">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>57EA2DB2-EA34-2356-FF23-31846E8E6E33</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<referedAttribute>B9DB717F-F7E3-4FAE-E16E-7749A002B106</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID EXAMEN" id="54C41FDF-A613-3BF1-0F00-BC1BDF3FE042">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>C0EA7088-E124-5BFE-75FF-FD4EF1DF15BE</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<referedAttribute>CD09A5B5-0D46-204F-BA96-C7F713FABA22</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="RESPUESTA" id="E31AAA45-FF3A-6D78-A765-04F1C06C33E3">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>5425954F-105A-D007-DDE2-3BC1CF8D5A70</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<constraintName>RESPUESTA_USUARIO_RESPUESTA_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<listOfValues>
+<valueDef value="1" description=""/>
+<valueDef value="2" description=""/>
+<valueDef value="3" description=""/>
+<valueDef value="4" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="770A4E9F-3A26-316A-1F3D-6DC0F712F531" name="RESPUESTA USUARIO PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>EC5A2995-B27E-ADC6-DAA3-08798830B636</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>34044E04-9A83-2DBB-4D54-3A78EA3E9FF4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

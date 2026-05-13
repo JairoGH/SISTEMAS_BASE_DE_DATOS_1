@@ -1,0 +1,62 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E730359B-87F1-65DC-9C7B-F5A6AAA30D49" name="PREREQ">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:25:55 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_carrera" id="2DC30825-0920-A097-C234-DC5BB15A627B">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:13:34 UTC</createdTime>
+<generatorID>5B85807F-2855-B2BA-C50D-42CE25CFAB84</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>CA7F1F86-3542-BF55-19BE-91791DCADA0C</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_curso_prereq" id="B5123F38-EF59-20CB-8EEE-C530F9CD10FF">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:19:12 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="1FEADA02-91B4-AB65-6118-6748F7F7D99C" name="PREREQ PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:20:11 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>B5123F38-EF59-20CB-8EEE-C530F9CD10FF</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="REGISTRO_CENTRO_FK" directorySegmentName="seg_0" id="52243F91-4AFC-722D-FA47-0D6E7C53318C">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>E78C9648-4862-99B2-2FDD-08696C37039C</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<sourcePk>D5E9DE28-E703-AD51-660D-B4F312945C16</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>A4EE885C-A3BB-CF64-FDDC-B24C4BB1FF7D</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>BE37859A-4032-07F1-B6D5-186F7C8C3D8F</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

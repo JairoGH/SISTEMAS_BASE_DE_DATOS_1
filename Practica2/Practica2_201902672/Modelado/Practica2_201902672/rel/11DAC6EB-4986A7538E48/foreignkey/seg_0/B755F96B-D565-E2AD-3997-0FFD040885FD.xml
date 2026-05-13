@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="B755F96B-D565-E2AD-3997-0FFD040885FD" containerWithKeyObject="BBE48FC0-961A-51D4-8617-859FC03FE602" localFKIndex="2D4AC647-5C87-F7C7-62E8-6352301E5DB0" name="RESPUESTA_PRACTICO_USUARIO_PREGUNTA_PRACTICO_FK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>RESPUESTA_PRACTICO_USUARIO_PREGUNTA_PRACTICO_FK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<referredTableLongName>PREGUNTA_PRACTICO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>402BA05F-517B-8550-F6BE-AC8583F437BA</referredTableID>
+<keyObject>D84771B6-A5F9-B74A-02F3-DBAF4D89E19F</keyObject>
+<referredKeyID>D84771B6-A5F9-B74A-02F3-DBAF4D89E19F</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PREG_PRACTICO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

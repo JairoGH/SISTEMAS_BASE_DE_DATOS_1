@@ -1,0 +1,97 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="975B4341-0B3D-357F-F8EE-14E5DF10D942" name="Opcion_Respuesta">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>223F1E2D-6AA4-5FF7-D9BB-30D480E2DCA8</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_opcion" id="CC3BD1C6-E166-BFB3-9EF0-76EE86619296">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>8F3EB5BF-683D-EA61-1AB0-B5B74822B169</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_pregunta" id="0A3070B6-5805-1306-51C0-95057509EAF9">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>5EF51524-8451-EC61-30D8-23921C86D0F0</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7669DC69-A0BA-1CE6-3E04-272E242AC6A4" referredColumn="F8C05505-48B4-C52F-F52F-D56C7B471BD2"/>
+</associations>
+</Column>
+<Column name="texto" id="59AAFA72-1008-F31C-82EE-723B128A3536">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>305D5DB2-2674-CF7F-DE38-D5AF3C7A5B4B</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="img" id="3187288A-3C2C-032A-D150-5EFFCF5BBFD5">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>91CF236C-8579-C685-53FB-B1113F97E8C5</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correcta" id="7A760A6C-203B-16AD-B861-E67D46C6F278">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>A8EB11D1-8A30-826F-A56F-35956308B42C</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8CC13D24-3926-F526-CB18-AC609D17FE15" name="Opcion_Respuesta_PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>5EEB9A72-81E5-E1D9-F9F6-C1AD795B39E3</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CC3BD1C6-E166-BFB3-9EF0-76EE86619296"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8A1145EF-BF79-9D82-A2FF-7759CF51B78E" name="FK_OP_PREG">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>B9D0E423-69BF-5BF0-045F-02AF86D63905</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0A3070B6-5805-1306-51C0-95057509EAF9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

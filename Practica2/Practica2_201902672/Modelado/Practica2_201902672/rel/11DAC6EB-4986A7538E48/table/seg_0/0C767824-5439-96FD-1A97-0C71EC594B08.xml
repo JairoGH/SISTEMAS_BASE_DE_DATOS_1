@@ -1,0 +1,102 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0C767824-5439-96FD-1A97-0C71EC594B08" name="ESCUELA">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>ESCUELA</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_ESCUELA" id="8DD731F0-723D-6F4B-C39B-3201D8B36F06">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>ESCUELA</sourceObjSchema>
+<sourceObjName>ID_ESCUELA</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE" id="F83559E4-F983-151F-0E19-BF73EA605604">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>ESCUELA</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DIRECCION" id="1742EC8E-22C2-B746-5C60-2F25808B2618">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>ESCUELA</sourceObjSchema>
+<sourceObjName>DIRECCION</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ACUERDO" id="4EE6B07A-47E4-244B-DF08-5E5D00B0D402">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>ESCUELA</sourceObjSchema>
+<sourceObjName>ACUERDO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8630254A-D6C5-4477-4073-B559BF12E028" name="ESCUELA_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>ESCUELA_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DD731F0-723D-6F4B-C39B-3201D8B36F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="493B76ED-9C47-9300-34C6-98D34099CF1B" schemaObject="2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06" name="ESCUELA_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>ESCUELA_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="8DD731F0-723D-6F4B-C39B-3201D8B36F06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

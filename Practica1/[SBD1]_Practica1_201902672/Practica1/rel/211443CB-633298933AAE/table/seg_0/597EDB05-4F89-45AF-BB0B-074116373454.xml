@@ -1,0 +1,135 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="597EDB05-4F89-45AF-BB0B-074116373454" name="Evaluacion_Preguntas">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>3BF92555-74C9-F9C5-DDB6-0A6F4141A7A7</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_eva_preg" id="061BC2FF-A05B-9128-0880-0EECB8F69269">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>27F8DE83-7697-11EB-B14D-D196B6E25BA3</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_evalu" id="6E30DB7F-B5DB-0B3A-DCB9-3F3C5E394692">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>62005F46-AC95-9AC5-8055-8182AC188E12</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="CF6F1504-FFBF-6A49-76AC-1587D7183DFA" referredColumn="EF5E477B-0C28-5E0F-3996-AB6C0C485E08"/>
+</associations>
+</Column>
+<Column name="id_preg" id="E5771DFC-3B6A-E60C-C866-80FFC35D3A06">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>FCD0B26E-B2F3-317F-84AD-934C018825B4</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E2CA067-1521-8268-9325-3500CDAD25B6" referredColumn="F8C05505-48B4-C52F-F52F-D56C7B471BD2"/>
+</associations>
+</Column>
+<Column name="id_opcion" id="92B4A191-49C3-D465-CC37-3308B1C21FEC">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>E1D43A1E-F0A5-ED8E-C7EA-E93D5DDD46B2</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="94F6EAD5-F4A3-40D9-2264-38660794FE93" referredColumn="CC3BD1C6-E166-BFB3-9EF0-76EE86619296"/>
+</associations>
+</Column>
+<Column name="puntaje_obtenido" id="FC7A2AFB-F667-BE90-65DD-AF936386A6D2">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>CB22DABE-72CB-C211-5461-D16C90DE6DA0</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="observacion" id="068EDB93-7D10-D8E9-981C-E3EB6E2D7DFE">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>09DBAD64-C5F3-2F89-36A9-75D39FFDFF25</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="8F21187B-595F-AE48-49E5-EE46F2F2D5BB" name="Evaluacion_Preguntas_PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>672DC31C-43F7-4D2B-22BE-DFDFDE3172AD</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="061BC2FF-A05B-9128-0880-0EECB8F69269"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9D883A7-08A5-D6A6-8E5C-4B8DDB66BFB4" name="FK_EP_EVAPREG">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>F5B906E3-A2AD-F99D-C4E8-D25D46E14910</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E5771DFC-3B6A-E60C-C866-80FFC35D3A06"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B2FC4B4F-6AD7-2ECB-0EF2-9E7031F89D88" name="FK_EP_PREG">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>059ABD9C-1EF8-AEA9-6F59-173BC7DDF2CE</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E30DB7F-B5DB-0B3A-DCB9-3F3C5E394692"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CB93B6D5-8DCE-1676-9832-73AEFE2107FD" name="FK_EP_OPC">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>3AA06EA3-5F1B-5EBB-6410-FA82548EA07C</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="92B4A191-49C3-D465-CC37-3308B1C21FEC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

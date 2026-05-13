@@ -1,0 +1,82 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="BC78D4CE-AEE8-9373-E354-EF77EB86A3F3" name="Centro_Escuelas">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>CC4FC1F2-4DD4-1A7C-2A1C-9B774185BDBD</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_escuela" id="F218A897-911A-4B41-3455-B0AE4DE6CBBE">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>337F1E1E-E8BB-3046-49E7-81E733D44330</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ED5B9B23-2895-F515-8326-224D03F0E7BF" referredColumn="090687D4-DF0C-7AD8-AD5A-DB8FBFAC307C"/>
+</associations>
+</Column>
+<Column name="id_centro" id="52017A8F-7F4F-4E9E-4173-C28C8BBD068A">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>746FC53F-ED74-CB11-8008-564030FD3086</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E63014B9-876B-46AD-0721-697142D4ADE3" referredColumn="114B7F13-29E1-3310-3FA1-DDAD21DB4BFB"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="5FE741CA-A425-D9A1-7D80-71BE143D8445" name="Centro_Escuelas_PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>6590D321-2B9C-0D1A-A80B-61D339D03A4B</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F218A897-911A-4B41-3455-B0AE4DE6CBBE"/>
+<colUsage columnID="52017A8F-7F4F-4E9E-4173-C28C8BBD068A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5A73C110-8961-0662-D5A4-08E520DE5C99" name="FK_CE_CEN">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>D288417C-1DDB-99F3-968F-0FD569779318</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F218A897-911A-4B41-3455-B0AE4DE6CBBE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="EE5BBE24-2132-9257-E421-F4AA4588B939" name="FK_CE_ESC">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>6E7196A5-D9D7-D738-E3F5-C99CFDD8039E</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="52017A8F-7F4F-4E9E-4173-C28C8BBD068A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

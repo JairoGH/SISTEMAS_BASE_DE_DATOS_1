@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="EE98326B-3EB3-6432-FCBA-0B5205541B1D" name="SALON">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>B730908B-0178-1E36-7416-4131CFF2CF76</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_edificio" id="1BFBCA68-1DA8-23BC-CD24-7FDA497209CE">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>46102AB9-D219-0571-0CFE-5A09A0D105F2</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>10,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cod_salon" id="4EF9A070-1832-32AB-4229-14E21FB90CA3">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>061BE84B-DCD3-F52E-AAB8-4EE48317C1AA</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="capacidad" id="7CAB85DA-18C5-22E8-FA9E-B2B6DD500784">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>8575151D-B7FE-1F8D-AB3D-951A7FB58A10</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A49CE7D9-22DB-C931-4515-E745655EDDE1" name="SALON_PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>3D2A12FF-89B1-CF70-9D00-FB9F36D8FB70</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1BFBCA68-1DA8-23BC-CD24-7FDA497209CE"/>
+<colUsage columnID="4EF9A070-1832-32AB-4229-14E21FB90CA3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="48E3CFCD-4AB8-6877-6349-5DEF59FCCCB3" containerWithKeyObject="8784AF55-F757-55C8-5508-9E72DFA0C368" localFKIndex="B9162337-1035-4BC1-6FE6-BFF0EEECD837" name="UBICACION_ESCUELA_FK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>UBICACION_ESCUELA_FK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<referredTableLongName>ESCUELA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0C767824-5439-96FD-1A97-0C71EC594B08</referredTableID>
+<keyObject>8630254A-D6C5-4477-4073-B559BF12E028</keyObject>
+<referredKeyID>8630254A-D6C5-4477-4073-B559BF12E028</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_ESCUELA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F106B6B8-E3B3-0113-4F20-57BAF90248E4" name="ESTUDIANTE">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:24:07 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="carnet" id="0134B3F8-D5CC-9ADB-C829-7437F411699F">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:31:53 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre_estudiante" id="472E5370-CDD3-5E07-05D6-1020AF70124C">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:32:07 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ingreso_familiar" id="C657C2BB-F0BD-7B48-217B-0DB7CD160788">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:32:54 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_nacimiento" id="6BBB1250-C6A0-18C3-4AA3-C557C477DEE6">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:33:41 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="0A0805A1-CA8F-9097-0AF7-EC928B04BB5C" name="ESTUDIANTE PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:32:04 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>0134B3F8-D5CC-9ADB-C829-7437F411699F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8784AF55-F757-55C8-5508-9E72DFA0C368" name="UBICACION">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>UBICACION</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESCUELA_ID_ESCUELA" id="FF290AFB-7481-8926-A95C-1EF835A454DC">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>UBICACION</sourceObjSchema>
+<sourceObjName>ID_ESCUELA</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="48E3CFCD-4AB8-6877-6349-5DEF59FCCCB3" referredColumn="8DD731F0-723D-6F4B-C39B-3201D8B36F06"/>
+</associations>
+</Column>
+<Column name="CENTRO_ID_CENTRO" id="7972E03B-AEDE-5FD4-FC97-FC94FFAB47BA">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>UBICACION</sourceObjSchema>
+<sourceObjName>ID_CENTRO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="ABADFEAC-9AA2-2A12-0BEE-DF4B0FAA5897" referredColumn="78300308-4117-5766-DC01-F8CCCEA60097"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="DE397073-1EDB-7BC6-179B-9E236BF49216" name="UBICACION_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>UBICACION_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF290AFB-7481-8926-A95C-1EF835A454DC"/>
+<colUsage columnID="7972E03B-AEDE-5FD4-FC97-FC94FFAB47BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="343E3916-E155-144E-DB63-5076B36444FB" schemaObject="2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06" name="UBICACION_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>UBICACION_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF290AFB-7481-8926-A95C-1EF835A454DC"/>
+<colUsage columnID="7972E03B-AEDE-5FD4-FC97-FC94FFAB47BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="5027F814-A6F0-0D89-956C-0C345CAF3DE9" name="UBICACION_CENTRO_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7972E03B-AEDE-5FD4-FC97-FC94FFAB47BA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="B9162337-1035-4BC1-6FE6-BFF0EEECD837" name="UBICACION_ESCUELA_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FF290AFB-7481-8926-A95C-1EF835A454DC"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

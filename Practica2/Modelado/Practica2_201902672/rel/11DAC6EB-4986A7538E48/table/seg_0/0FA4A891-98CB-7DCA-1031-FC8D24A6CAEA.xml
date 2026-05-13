@@ -1,0 +1,217 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0FA4A891-98CB-7DCA-1031-FC8D24A6CAEA" name="REGISTRO">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>REGISTRO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_REGISTRO" id="9A1E12F7-C30E-71CE-A455-6998F968983A">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>ID_REGISTRO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ESCUELA_ID_ESCUELA" id="019701E4-4B62-8A28-4749-ED36576E5D05">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>ID_ESCUELA</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2F361370-9ACC-3D53-2B86-DF00E93C64D2" referredColumn="8DD731F0-723D-6F4B-C39B-3201D8B36F06"/>
+</associations>
+</Column>
+<Column name="CENTRO_ID_CENTRO" id="2CDD2CA4-EEC8-9AFD-98E4-ED858D535494">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>ID_CENTRO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="E78C9648-4862-99B2-2FDD-08696C37039C" referredColumn="78300308-4117-5766-DC01-F8CCCEA60097"/>
+</associations>
+</Column>
+<Column name="MUNICIPIO_ID_MUNICIPIO" id="9D60D971-C46F-F637-BA37-D7B030DFB0F5">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>ID_MUNICIPIO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="2FF17219-DCB2-BCAE-5FE4-FD0899A116C4" referredColumn="0EFC4D18-BD65-D561-DBAB-E9336B01F0D4"/>
+</associations>
+</Column>
+<Column name="FECHA" id="ACEFA292-C44F-3C42-0802-E4202F895A3F">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>FECHA</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<dataTypeSize>7</dataTypeSize>
+<ownDataTypeParameters>7,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_TRAMITE" id="512DB7F2-7627-9D4F-D88B-36D0BDD14D7D">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>TIPO_TRAMITE</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="T_LICENCIA" id="8DA14067-82EF-7388-11F9-5C7D220C3895">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>TIPO_LICENCIA</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NOMBRE_COMPLETO" id="19B626C2-95C5-22C5-346C-D10C6ED17001">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>NOMBRE_COMPLETO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="GENERO" id="4C878536-9DC1-5BB1-4439-FBADB1EE0162">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>REGISTRO</sourceObjSchema>
+<sourceObjName>GENERO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<constraintName>REGISTRO_GENERO_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;F&apos;" description=""/>
+<valueDef value="&apos;M&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="0D7B635D-7CAF-44AA-B210-2C58C8E47BCA" name="REGISTRO_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>REGISTRO_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A1E12F7-C30E-71CE-A455-6998F968983A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3710503E-2187-0895-FE2E-1A891C68E5CD" schemaObject="2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06" name="REGISTRO_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>REGISTRO_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9A1E12F7-C30E-71CE-A455-6998F968983A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8181FC27-74B2-5542-D5C4-41BDB4D268AE" name="REGISTRO_CENTRO_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2CDD2CA4-EEC8-9AFD-98E4-ED858D535494"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="CBC60F8C-24C0-43DB-94B4-BDBEE793F19D" name="REGISTRO_ESCUELA_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="019701E4-4B62-8A28-4749-ED36576E5D05"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="56F06098-A7F3-AA50-DF4B-2F8B0420D98A" name="REGISTRO_MUNICIPIO_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="9D60D971-C46F-F637-BA37-D7B030DFB0F5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

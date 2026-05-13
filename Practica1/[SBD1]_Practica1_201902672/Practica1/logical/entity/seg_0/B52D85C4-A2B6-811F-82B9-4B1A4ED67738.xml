@@ -1,0 +1,86 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B52D85C4-A2B6-811F-82B9-4B1A4ED67738" name="Empleado">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:47:15 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_empleado" id="0BC95320-CF83-FFB2-9D32-A0ACD88FC828">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:58:59 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cui_empleado" id="E4B734E3-2447-F67C-3140-DBEBCD61C1DB">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:59:30 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E22BA860-6C59-B383-1671-E4E2CBBBCB24">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:59:52 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="rol" id="38059244-DA1E-E062-C6D8-D6BD4BCA23B5">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:00:12 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 CHAR</dataTypeSize>
+<ownDataTypeParameters>20 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="3B9B3A1E-CACC-200C-C2AA-864A88338EAF" name="Empleado PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:59:22 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>0BC95320-CF83-FFB2-9D32-A0ACD88FC828</newElementsIDs>
+<usedAttributes>
+<attributeRef>0BC95320-CF83-FFB2-9D32-A0ACD88FC828</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

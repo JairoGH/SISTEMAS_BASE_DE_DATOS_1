@@ -1,0 +1,94 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0457FA66-390A-56C2-40AD-E36B637EC3A0" name="INSCRIPCION">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>BF3CFCCA-8CAC-C589-777B-2206E273A621</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESTUDIANTE_carnet" id="A426681D-C741-8B4C-7212-DEBFFE23651A">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>66652836-F856-4F10-C493-E4F1357E8903</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="BEDF1F6A-9CA1-E3B3-342F-904F0F9710B6" referredColumn="A7AEAC0C-B823-C4CE-A8F6-10646DA23BFA"/>
+</associations>
+</Column>
+<Column name="CARRERA_cod_carrera" id="08AFDE5A-0D46-C368-6AD7-3B830C484C54">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>2E69D21F-3BD0-D0A0-31F1-C5CD167ECDAE</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="74F3ADDA-B212-949B-57BC-23F4D357606C" referredColumn="D7F91FC5-7014-64FF-E719-F095FB52766F"/>
+</associations>
+</Column>
+<Column name="fecha_inscripcion" id="D3561CA5-F774-8DF3-DA3F-17E51FF73918">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>EDE80DC8-08B8-9D81-2627-3774900636AB</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="6C53A4A3-34CA-31EE-5C1B-DBA5F44928B2" name="INSCRIPCION_PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>5F6700EA-263C-0435-0214-2E3D05231106</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A426681D-C741-8B4C-7212-DEBFFE23651A"/>
+<colUsage columnID="08AFDE5A-0D46-C368-6AD7-3B830C484C54"/>
+<colUsage columnID="D3561CA5-F774-8DF3-DA3F-17E51FF73918"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D53DFE72-1416-6AD0-C1F7-C613463CBEEC" name="INSCRIPCION_CARRERA_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>5FCED583-361D-BDCA-78D8-D692882CB768</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08AFDE5A-0D46-C368-6AD7-3B830C484C54"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="246297FC-06E6-0A0F-1AE3-94A3E1AAB8BD" name="INSCRIPCION_ESTUDIANTE_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>7F5EBF45-B2AE-1F22-4C83-0A291243500C</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A426681D-C741-8B4C-7212-DEBFFE23651A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="14480D9C-2512-0B78-7BDD-5C02024C1DC2" name="MUNICIPIO">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>MUNICIPIO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_MUNICIPIO" id="0EFC4D18-BD65-D561-DBAB-E9336B01F0D4">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>MUNICIPIO</sourceObjSchema>
+<sourceObjName>ID_MUNICIPIO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DEPARTAMENTO_ID_DEPARTAMENTO" id="E1A65A03-3B08-A431-E128-471E60306EE3">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>MUNICIPIO</sourceObjSchema>
+<sourceObjName>ID_DEPARTAMENTO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D827011B-EDBD-9CA2-4399-6EA701BB5D6F" referredColumn="6851FB72-B51B-E8F1-0422-315E3F9EEBE1"/>
+</associations>
+</Column>
+<Column name="NOMBRE" id="4B4B16BF-A769-BE7A-CB00-ECACE7C56152">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>MUNICIPIO</sourceObjSchema>
+<sourceObjName>NOMBRE</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CODIGO" id="BCDAF8AB-A5B1-AC27-4FFC-558D00057801">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>MUNICIPIO</sourceObjSchema>
+<sourceObjName>CODIGO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="3D0B46B0-0D52-B3AC-BA09-0B2F614615F5" name="MUNICIPIO_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>MUNICIPIO_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EFC4D18-BD65-D561-DBAB-E9336B01F0D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="DD4D6362-8806-76E7-B25A-3A1DE18E2641" schemaObject="2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06" name="MUNICIPIO_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>MUNICIPIO_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0EFC4D18-BD65-D561-DBAB-E9336B01F0D4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="2449AF65-94D4-0DF9-D0DE-51C3B1B65E06" name="MUNICIPIO_DEPARTAMENTO_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="E1A65A03-3B08-A431-E128-471E60306EE3"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

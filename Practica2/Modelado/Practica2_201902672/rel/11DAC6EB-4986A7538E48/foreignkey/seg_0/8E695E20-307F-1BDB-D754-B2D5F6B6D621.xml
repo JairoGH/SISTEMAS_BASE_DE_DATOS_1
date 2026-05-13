@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="8E695E20-307F-1BDB-D754-B2D5F6B6D621" containerWithKeyObject="DCADC252-70E7-FDC5-C7B6-2A7FEB8F1529" localFKIndex="57997150-BF61-B0D4-1571-F9E77627507E" name="EXAMEN_REGISTRO_FK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>EXAMEN_REGISTRO_FK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<referredTableLongName>REGISTRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>0FA4A891-98CB-7DCA-1031-FC8D24A6CAEA</referredTableID>
+<keyObject>0D7B635D-7CAF-44AA-B210-2C58C8E47BCA</keyObject>
+<referredKeyID>0D7B635D-7CAF-44AA-B210-2C58C8E47BCA</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_REGISTRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

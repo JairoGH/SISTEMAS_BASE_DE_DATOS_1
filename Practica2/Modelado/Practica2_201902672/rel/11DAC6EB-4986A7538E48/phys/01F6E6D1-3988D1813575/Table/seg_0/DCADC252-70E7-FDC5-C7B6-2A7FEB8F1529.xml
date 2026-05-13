@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="EXAMEN" directorySegmentName="seg_0" id="DCADC252-70E7-FDC5-C7B6-2A7FEB8F1529">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1B2BB127-C1F4-6C4C-484A-E1E304DA5A94</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CORRELATIVO_ID_CORRELATIVO" id="7B8FD0B9-F756-D9A5-EA65-E809424368B9">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_EXAMEN" id="A0BD922C-53E8-97AC-C498-1CD5E6224B3B">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="REGISTRO_ID_REGISTRO" id="FC6681EC-49B6-FB04-E5AE-CE034DF914B5">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="EXAMEN_PK" id="6703FCF7-EB56-8BFD-7F57-9127FD5C8C55">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<schemaObject>2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06</schemaObject>
+<segment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EXAMEN_REGISTRO_FK" id="57997150-BF61-B0D4-1571-F9E77627507E">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="EXAMEN_CORRELATIVO_FK" id="89BD5FA9-C04E-061C-7DC1-5F3D2CEAF449">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="EXAMEN_PK" id="F2CCDEE9-92EB-F7F2-2326-B669B3E9906D">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<segment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+<existingIndex>6703FCF7-EB56-8BFD-7F57-9127FD5C8C55</existingIndex>
+<indexSegment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

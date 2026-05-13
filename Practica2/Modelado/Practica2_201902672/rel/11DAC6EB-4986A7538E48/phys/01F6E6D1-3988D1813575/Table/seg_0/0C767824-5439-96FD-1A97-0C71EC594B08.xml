@@ -1,0 +1,59 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="ESCUELA" directorySegmentName="seg_0" id="0C767824-5439-96FD-1A97-0C71EC594B08">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1B2BB127-C1F4-6C4C-484A-E1E304DA5A94</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="DIRECCION" id="1742EC8E-22C2-B746-5C60-2F25808B2618">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ACUERDO" id="4EE6B07A-47E4-244B-DF08-5E5D00B0D402">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_ESCUELA" id="8DD731F0-723D-6F4B-C39B-3201D8B36F06">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE" id="F83559E4-F983-151F-0E19-BF73EA605604">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="ESCUELA_PK" id="493B76ED-9C47-9300-34C6-98D34099CF1B">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<schemaObject>2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06</schemaObject>
+<segment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="ESCUELA_PK" id="8630254A-D6C5-4477-4073-B559BF12E028">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<segment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+<existingIndex>493B76ED-9C47-9300-34C6-98D34099CF1B</existingIndex>
+<indexSegment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

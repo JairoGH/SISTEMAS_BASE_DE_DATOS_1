@@ -1,0 +1,114 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="DCADC252-70E7-FDC5-C7B6-2A7FEB8F1529" name="EXAMEN">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>EXAMEN</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_EXAMEN" id="A0BD922C-53E8-97AC-C498-1CD5E6224B3B">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>EXAMEN</sourceObjSchema>
+<sourceObjName>ID_EXAMEN</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REGISTRO_ID_REGISTRO" id="FC6681EC-49B6-FB04-E5AE-CE034DF914B5">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>EXAMEN</sourceObjSchema>
+<sourceObjName>ID_REGISTRO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8E695E20-307F-1BDB-D754-B2D5F6B6D621" referredColumn="9A1E12F7-C30E-71CE-A455-6998F968983A"/>
+</associations>
+</Column>
+<Column name="CORRELATIVO_ID_CORRELATIVO" id="7B8FD0B9-F756-D9A5-EA65-E809424368B9">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>EXAMEN</sourceObjSchema>
+<sourceObjName>ID_CORRELATIVO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1B93CAA7-FEAF-47BD-DE92-E2F5D4BDFFE3" referredColumn="53779269-FB5C-7847-C6BB-A95130B20FC5"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="F2CCDEE9-92EB-F7F2-2326-B669B3E9906D" name="EXAMEN_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>EXAMEN_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0BD922C-53E8-97AC-C498-1CD5E6224B3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6703FCF7-EB56-8BFD-7F57-9127FD5C8C55" schemaObject="2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06" name="EXAMEN_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>EXAMEN_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0BD922C-53E8-97AC-C498-1CD5E6224B3B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="89BD5FA9-C04E-061C-7DC1-5F3D2CEAF449" name="EXAMEN_CORRELATIVO_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="7B8FD0B9-F756-D9A5-EA65-E809424368B9"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="57997150-BF61-B0D4-1571-F9E77627507E" name="EXAMEN_REGISTRO_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="FC6681EC-49B6-FB04-E5AE-CE034DF914B5"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

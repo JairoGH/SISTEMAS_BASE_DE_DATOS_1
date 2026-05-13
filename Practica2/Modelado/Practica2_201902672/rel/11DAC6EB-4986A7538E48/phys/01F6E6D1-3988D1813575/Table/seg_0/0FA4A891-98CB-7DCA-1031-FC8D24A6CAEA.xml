@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="REGISTRO" directorySegmentName="seg_0" id="0FA4A891-98CB-7DCA-1031-FC8D24A6CAEA">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1B2BB127-C1F4-6C4C-484A-E1E304DA5A94</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="ESCUELA_ID_ESCUELA" id="019701E4-4B62-8A28-4749-ED36576E5D05">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NOMBRE_COMPLETO" id="19B626C2-95C5-22C5-346C-D10C6ED17001">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CENTRO_ID_CENTRO" id="2CDD2CA4-EEC8-9AFD-98E4-ED858D535494">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="GENERO" id="4C878536-9DC1-5BB1-4439-FBADB1EE0162">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_TRAMITE" id="512DB7F2-7627-9D4F-D88B-36D0BDD14D7D">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="T_LICENCIA" id="8DA14067-82EF-7388-11F9-5C7D220C3895">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_REGISTRO" id="9A1E12F7-C30E-71CE-A455-6998F968983A">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="MUNICIPIO_ID_MUNICIPIO" id="9D60D971-C46F-F637-BA37-D7B030DFB0F5">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="FECHA" id="ACEFA292-C44F-3C42-0802-E4202F895A3F">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REGISTRO_PK" id="3710503E-2187-0895-FE2E-1A891C68E5CD">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<schemaObject>2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06</schemaObject>
+<segment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REGISTRO_MUNICIPIO_FK" id="56F06098-A7F3-AA50-DF4B-2F8B0420D98A">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REGISTRO_CENTRO_FK" id="8181FC27-74B2-5542-D5C4-41BDB4D268AE">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ForeignKey>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REGISTRO_ESCUELA_FK" id="CBC60F8C-24C0-43DB-94B4-BDBEE793F19D">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REGISTRO_PK" id="0D7B635D-7CAF-44AA-B210-2C58C8E47BCA">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<segment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+<existingIndex>3710503E-2187-0895-FE2E-1A891C68E5CD</existingIndex>
+<indexSegment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

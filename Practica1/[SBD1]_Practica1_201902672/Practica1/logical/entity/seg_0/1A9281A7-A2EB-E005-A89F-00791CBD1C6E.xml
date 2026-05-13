@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="1A9281A7-A2EB-E005-A89F-00791CBD1C6E" name="Municipio">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:46:43 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_muni" id="AB906A7D-BDC4-D795-76BF-826AAEFE1ADD">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:49:55 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="E388D482-925D-6815-7350-C9D2FFFF00E0">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:50:42 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_depto" id="7BCC263B-C27E-055C-96BE-1E0D45319379">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:15:25 UTC</createdTime>
+<generatorID>2A92C898-1A67-1E60-DCBD-D3823AA24C8B</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<referedAttribute>F9B12DED-D500-7130-DB0B-DDB4ECD1ECF8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="818D1934-A8ED-C5C6-7C71-A5FFAD670EC9" name="Municipio PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:50:08 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>AB906A7D-BDC4-D795-76BF-826AAEFE1ADD</newElementsIDs>
+<usedAttributes>
+<attributeRef>AB906A7D-BDC4-D795-76BF-826AAEFE1ADD</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

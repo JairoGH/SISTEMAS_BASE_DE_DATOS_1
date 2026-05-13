@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="864E3B47-0E29-25DF-56E4-E7E4F7341C83" containerWithKeyObject="00A57DE3-C5CF-86AD-A0EA-33044724A47C" localFKIndex="7F836F15-44A2-9E7A-90DC-241F3EFDB08D" name="RESPUESTA_USUARIO_PREGUNTA_FK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>RESPUESTA_USUARIO_PREGUNTA_FK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<referredTableLongName>PREGUNTA</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>ED510398-2E0B-3066-88A0-535C865B6464</referredTableID>
+<keyObject>EE9268D7-AA6F-A1D5-F9A5-5A41CBEB4A15</keyObject>
+<referredKeyID>EE9268D7-AA6F-A1D5-F9A5-5A41CBEB4A15</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_PREGUNTA</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

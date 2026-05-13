@@ -1,0 +1,65 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="A4EE885C-A3BB-CF64-FDDC-B24C4BB1FF7D" name="CENTRO">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:43 UTC</createdTime>
+<generatorID>9E09827F-B7AB-D745-F8CA-59FD29446BD0</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID CENTRO" id="CACD79F4-8DC7-EF4B-0820-ACEE296FD874">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:43 UTC</createdTime>
+<generatorID>78300308-4117-5766-DC01-F8CCCEA60097</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE" id="7E586468-15C1-AEE5-B6F5-91AC6E347981">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:43 UTC</createdTime>
+<generatorID>82AE3063-2C02-E90A-9FB9-EF93EB03D3A7</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="D5E9DE28-E703-AD51-660D-B4F312945C16" name="CENTRO PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:43 UTC</createdTime>
+<generatorID>02326FFB-B2A0-AF9E-8DC2-D5F92ECD59A9</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CACD79F4-8DC7-EF4B-0820-ACEE296FD874</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

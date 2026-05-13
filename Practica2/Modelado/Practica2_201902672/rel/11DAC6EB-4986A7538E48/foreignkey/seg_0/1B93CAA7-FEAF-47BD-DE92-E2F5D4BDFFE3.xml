@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="1B93CAA7-FEAF-47BD-DE92-E2F5D4BDFFE3" containerWithKeyObject="DCADC252-70E7-FDC5-C7B6-2A7FEB8F1529" localFKIndex="89BD5FA9-C04E-061C-7DC1-5F3D2CEAF449" name="EXAMEN_CORRELATIVO_FK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>EXAMEN_CORRELATIVO_FK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<referredTableLongName>CORRELATIVO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>6D91499B-E7C7-69FA-B769-C66DFC3F5A21</referredTableID>
+<keyObject>A1DEDBC1-A4A4-7F40-3F2E-FBFA108E9440</keyObject>
+<referredKeyID>A1DEDBC1-A4A4-7F40-3F2E-FBFA108E9440</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CORRELATIVO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

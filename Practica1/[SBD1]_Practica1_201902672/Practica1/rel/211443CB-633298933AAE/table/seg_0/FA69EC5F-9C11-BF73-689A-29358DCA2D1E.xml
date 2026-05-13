@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="FA69EC5F-9C11-BF73-689A-29358DCA2D1E" name="Preguntas">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>DCD3F09E-4020-B225-4B13-3CBBD76ED8C1</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_pregunta" id="F8C05505-48B4-C52F-F52F-D56C7B471BD2">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>BCBF7E9D-5B82-468C-0A8B-A8CA803CE5BE</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="tipo" id="28FF3963-170A-77D1-060D-99222CE84AEE">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>7339CE8A-1070-7270-1D96-B0C487836B70</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15 CHAR</dataTypeSize>
+<ownDataTypeParameters>15 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="texto" id="F5024271-78D2-9C95-51DA-12B00DF412E4">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>64E55ACD-A680-599A-5019-16DE35B562AC</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="img_ref" id="95DA9309-5814-6F95-3C7C-8CE3F4ACCA52">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>84DA66FB-17AE-386F-2522-F21630329253</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 CHAR</dataTypeSize>
+<ownDataTypeParameters>500 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="valor" id="82D534D9-1530-4A17-D3B1-1AFEA61C8CA2">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>17761618-EC67-FB89-04A8-3FC675B3DD71</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E3758950-3024-8254-DA22-45B10CE4ED90" name="Preguntas_PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>271D3D1F-0288-D4B5-6D10-DB28ABEB0438</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F8C05505-48B4-C52F-F52F-D56C7B471BD2"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

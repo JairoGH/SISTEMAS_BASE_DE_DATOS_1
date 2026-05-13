@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="E78C9648-4862-99B2-2FDD-08696C37039C" containerWithKeyObject="0FA4A891-98CB-7DCA-1031-FC8D24A6CAEA" localFKIndex="8181FC27-74B2-5542-D5C4-41BDB4D268AE" name="REGISTRO_CENTRO_FK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>REGISTRO_CENTRO_FK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<referredTableLongName>CENTRO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>9E09827F-B7AB-D745-F8CA-59FD29446BD0</referredTableID>
+<keyObject>02326FFB-B2A0-AF9E-8DC2-D5F92ECD59A9</keyObject>
+<referredKeyID>02326FFB-B2A0-AF9E-8DC2-D5F92ECD59A9</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_CENTRO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

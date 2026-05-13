@@ -1,0 +1,138 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3C03CF3-7D63-4C2F-911A-81F83D4C2165" name="Evaluacion">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:47:28 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_evaluacion" id="EC658CCD-AFEB-01AC-633B-6AC44182C9B2">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:01:20 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha" id="F214924B-4020-729C-3F22-6356294C0AC2">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:01:37 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="correlativo" id="2B63E280-D540-CD42-395B-67F82F5098EE">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:02:01 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resultado_teorico" id="DC534B58-F52B-5692-B221-D939C54DAF63">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:05:05 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="resultado_practico" id="5B034632-9088-5D9E-D278-A5F182A6D0BA">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:05:29 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_persona" id="006C2B99-99CE-AA79-11F5-CDA8AC68EB7A">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:28:15 UTC</createdTime>
+<generatorID>F24689FA-8EE5-A0E4-2AAA-B36FACE97CF8</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<referedAttribute>4C35B06D-3673-F1AD-3184-B322005ABEBA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_centro" id="98351B71-83F7-2DD7-3045-F425481F3BC5">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:29:06 UTC</createdTime>
+<generatorID>05F54ECD-C00D-C11D-DAD6-12038CF46A43</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<referedAttribute>B42C436B-CE7F-FCB3-5976-281B2BAFE72D</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_empleado" id="E9D31F10-6031-BEAB-B0E4-4E89847B63B7">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:29:48 UTC</createdTime>
+<generatorID>96E1BC97-1D73-4DCD-E570-08E4A1DE0359</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<referedAttribute>0BC95320-CF83-FFB2-9D32-A0ACD88FC828</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="559D7F5C-51B0-A368-BABB-9340E6C6AC4A" name="Evaluacion PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:01:33 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>EC658CCD-AFEB-01AC-633B-6AC44182C9B2</newElementsIDs>
+<usedAttributes>
+<attributeRef>EC658CCD-AFEB-01AC-633B-6AC44182C9B2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

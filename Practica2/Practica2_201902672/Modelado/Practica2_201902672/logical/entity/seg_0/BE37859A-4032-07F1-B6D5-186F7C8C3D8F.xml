@@ -1,0 +1,172 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="BE37859A-4032-07F1-B6D5-186F7C8C3D8F" name="REGISTRO">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>0FA4A891-98CB-7DCA-1031-FC8D24A6CAEA</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID REGISTRO" id="CE99F684-7F6C-AC56-0619-F85718454841">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>9A1E12F7-C30E-71CE-A455-6998F968983A</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID ESCUELA" id="CF3D7699-02CF-68BC-15B4-5D4B149FC58C">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>0EC596B4-FA3E-501E-A3E2-55D2E6E04D6F</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<referedAttribute>A7D70F43-C7C9-326E-4A2A-E657EB873019</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID CENTRO" id="F0CA22C1-4936-23B5-FD76-EF889B8480DE">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>52243F91-4AFC-722D-FA47-0D6E7C53318C</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<referedAttribute>CACD79F4-8DC7-EF4B-0820-ACEE296FD874</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID MUNICIPIO" id="0C544DC2-9BD6-AE6A-7B45-B674B76A341A">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>53CFFD20-C95D-8155-E166-EBF39C5ADFD2</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<referedAttribute>C39650BD-6546-DAB4-0D6A-910B5E1FD8D6</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="FECHA" id="D7C46BC1-76EE-0146-95EE-6EE0E1065D7C">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>ACEFA292-C44F-3C42-0802-E4202F895A3F</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T TRAMITE" id="45554B2F-DECD-AD4D-F25E-7DEA72B8C4C3">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>512DB7F2-7627-9D4F-D88B-36D0BDD14D7D</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>30 CHAR</dataTypeSize>
+<ownDataTypeParameters>30 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="T LICENCIA" id="B78E0EE2-8C04-6109-F11B-475FE81D0A81">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>8DA14067-82EF-7388-11F9-5C7D220C3895</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>5 CHAR</dataTypeSize>
+<ownDataTypeParameters>5 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="NOMBRE COMPLETO" id="3D8DD1AA-ABEC-3A0F-7F77-127D4ADC808C">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>19B626C2-95C5-22C5-346C-D10C6ED17001</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>150 CHAR</dataTypeSize>
+<ownDataTypeParameters>150 CHAR,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="GENERO" id="F3187498-9F06-2DE1-EB3F-6860F93228D9">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>4C878536-9DC1-5BB1-4439-FBADB1EE0162</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<constraintName>REGISTRO_GENERO_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT025</logicalDatatype>
+<dataTypeSize>1 CHAR</dataTypeSize>
+<listOfValues>
+<valueDef value="&apos;F&apos;" description=""/>
+<valueDef value="&apos;M&apos;" description=""/>
+</listOfValues>
+<ownDataTypeParameters>1 CHAR,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="194567F8-264B-910F-BBCF-6A5824BB72C0" name="REGISTRO PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>0D7B635D-7CAF-44AA-B210-2C58C8E47BCA</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CE99F684-7F6C-AC56-0619-F85718454841</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

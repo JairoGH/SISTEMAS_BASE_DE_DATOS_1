@@ -1,0 +1,52 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="572E8C61-369B-3AC6-E3C2-010EB0555E8D" name="CARRERA">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>6E94C9E6-9213-C33A-2C7A-16DE25D26647</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="cod_carrera" id="D7F91FC5-7014-64FF-E719-F095FB52766F">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>AD79595E-CDAB-31A7-EC83-DD45ACABB0DC</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre_carrera" id="72E30F6C-C3FC-F822-2CE7-CA379109E356">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>44F0AF81-66E2-4D0C-AFD0-6EA4ABA198E7</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100</dataTypeSize>
+<ownDataTypeParameters>100,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="E09B4C90-A975-0C69-4F8C-1A8810A669F7" name="CARRERA_PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>707084B7-D331-0D6C-EF1C-6AFC91F3D1E3</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D7F91FC5-7014-64FF-E719-F095FB52766F"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

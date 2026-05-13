@@ -1,0 +1,55 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PREGUNTA_PRACTICO" directorySegmentName="seg_0" id="402BA05F-517B-8550-F6BE-AC8583F437BA">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1B2BB127-C1F4-6C4C-484A-E1E304DA5A94</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="TEXTO" id="3417478F-8FF2-079B-3AC4-893A50C3069F">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="PUNTEO" id="36A09547-706B-DA54-51EB-A7814A7EE472">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<defaultValue>10</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="ID_PREG_PRACTICO" id="D3DE3359-41DF-B83A-29AC-B41766CF41F1">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PREGUNTA_PRACTICO_PK" id="599C717F-85E4-4CC0-8930-1D852B13B637">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<schemaObject>2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06</schemaObject>
+<segment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PREGUNTA_PRACTICO_PK" id="D84771B6-A5F9-B74A-02F3-DBAF4D89E19F">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<segment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+<existingIndex>599C717F-85E4-4CC0-8930-1D852B13B637</existingIndex>
+<indexSegment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

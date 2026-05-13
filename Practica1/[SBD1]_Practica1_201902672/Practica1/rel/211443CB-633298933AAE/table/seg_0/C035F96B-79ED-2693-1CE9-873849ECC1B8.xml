@@ -1,0 +1,75 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="C035F96B-79ED-2693-1CE9-873849ECC1B8" name="Municipio">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>1A9281A7-A2EB-E005-A89F-00791CBD1C6E</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_muni" id="A0BE6405-703B-B6FD-DE71-F222CBFE68A4">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>AB906A7D-BDC4-D795-76BF-826AAEFE1ADD</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_depto" id="07177D0E-5495-5FBF-A85F-EFF231FFF630">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>220678A3-0CC5-E43E-22C9-CD37B251C22B</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="72F3D35C-7361-FD24-B25B-F164FB0CAB33" referredColumn="1005583A-9A7F-7A3E-2278-FB9C89152B13"/>
+</associations>
+</Column>
+<Column name="nombre" id="EC54C8BB-4520-BD8A-54C6-9CCBAB0CCF7B">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>E388D482-925D-6815-7350-C9D2FFFF00E0</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 CHAR</dataTypeSize>
+<ownDataTypeParameters>100 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B4D8093C-34D0-92CB-D975-420DBA14378A" name="Municipio_PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>818D1934-A8ED-C5C6-7C71-A5FFAD670EC9</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0BE6405-703B-B6FD-DE71-F222CBFE68A4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="6A2C53E1-8307-A904-B502-3D68DF7F6819" name="FK_MUN_DEP">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>2A92C898-1A67-1E60-DCBD-D3823AA24C8B</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="07177D0E-5495-5FBF-A85F-EFF231FFF630"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

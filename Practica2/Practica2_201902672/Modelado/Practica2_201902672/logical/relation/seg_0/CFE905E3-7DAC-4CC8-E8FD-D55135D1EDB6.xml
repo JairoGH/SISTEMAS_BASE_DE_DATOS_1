@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="UBICACION_ESCUELA_FK" directorySegmentName="seg_0" id="CFE905E3-7DAC-4CC8-E8FD-D55135D1EDB6">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>48E3CFCD-4AB8-6877-6349-5DEF59FCCCB3</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<sourcePk>1874E0AE-C868-8A93-AD63-220A705EE17D</sourcePk>
+<identifying>true</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>BA4F75B4-03D8-8037-0398-D289C8092DDA</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>F8258D0A-976A-E3A1-227A-3D8CB7A172F8</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

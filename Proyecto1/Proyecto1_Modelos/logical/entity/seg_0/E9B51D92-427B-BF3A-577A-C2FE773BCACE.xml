@@ -1,0 +1,105 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E9B51D92-427B-BF3A-577A-C2FE773BCACE" name="SECCION">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:25:31 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_curso" id="C2755FFB-2E0B-B716-B8BC-9ADC74DD04B7">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 02:58:54 UTC</createdTime>
+<generatorID>FEB44CB5-56D5-1882-3C8C-1E298A5DC92D</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>65CB0554-3F31-3F94-4C46-4D8469303FB5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_seccion" id="CF2F8278-2AED-A61E-8BFB-C01276B73336">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:53:29 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="7CAD4B5E-7BEA-61ED-899D-F93517DE67AF">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:53:56 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciclo" id="4D28B4BF-0782-0FD0-FDD2-FF7D4D7B14FD">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:54:30 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_catedratico" id="75EA580B-96EF-4BD6-A66C-E0D0591ED969">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 02:59:02 UTC</createdTime>
+<generatorID>A325AE53-8C21-EB95-0395-09183551A2FD</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>D73FEF67-E40F-12DB-9E68-F385D28B0D60</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="72EE9576-32B9-649C-BD45-21169BAE1EEF" name="SECCION PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:53:50 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>CF2F8278-2AED-A61E-8BFB-C01276B73336</attributeRef>
+<attributeRef>7CAD4B5E-7BEA-61ED-899D-F93517DE67AF</attributeRef>
+<attributeRef>4D28B4BF-0782-0FD0-FDD2-FF7D4D7B14FD</attributeRef>
+<attributeRef>C2755FFB-2E0B-B716-B8BC-9ADC74DD04B7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

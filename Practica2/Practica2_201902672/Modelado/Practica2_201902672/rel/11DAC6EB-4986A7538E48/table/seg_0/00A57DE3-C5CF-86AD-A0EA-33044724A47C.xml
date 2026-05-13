@@ -1,0 +1,137 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="00A57DE3-C5CF-86AD-A0EA-33044724A47C" name="RESPUESTA_USUARIO">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>RESPUESTA_USUARIO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ID_RESPUESTA_USUARIO" id="A8840EB9-0318-85E6-1CD1-83792057D0B7">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>RESPUESTA_USUARIO</sourceObjSchema>
+<sourceObjName>ID_RESPUESTA_USUARIO</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,10,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PREGUNTA_ID_PREGUNTA" id="D5B011C1-1FEF-EEF5-1DA3-7C9D75A98E2C">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>RESPUESTA_USUARIO</sourceObjSchema>
+<sourceObjName>ID_PREGUNTA</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="864E3B47-0E29-25DF-56E4-E7E4F7341C83" referredColumn="DFBE40E2-3597-E4ED-84DA-D7E1618A0729"/>
+</associations>
+</Column>
+<Column name="EXAMEN_ID_EXAMEN" id="C4D17AED-495E-F12B-F62A-2EB3B39BF577">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>RESPUESTA_USUARIO</sourceObjSchema>
+<sourceObjName>ID_EXAMEN</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4B5F0DC1-B5C8-D2F6-1515-51585A5F8D71" referredColumn="A0BD922C-53E8-97AC-C498-1CD5E6224B3B"/>
+</associations>
+</Column>
+<Column name="RESPUESTA" id="5425954F-105A-D007-DDE2-3BC1CF8D5A70">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>RESPUESTA_USUARIO</sourceObjSchema>
+<sourceObjName>RESPUESTA</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<constraintName>RESPUESTA_USUARIO_RESPUESTA_CK</constraintName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>1</dataTypePrecision>
+<dataTypeScale>0</dataTypeScale>
+<listOfValues>
+<valueDef value="1" description=""/>
+<valueDef value="2" description=""/>
+<valueDef value="3" description=""/>
+<valueDef value="4" description=""/>
+</listOfValues>
+<ownDataTypeParameters>,1,0</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EC5A2995-B27E-ADC6-DAA3-08798830B636" name="RESPUESTA_USUARIO_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>RESPUESTA_USUARIO_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8840EB9-0318-85E6-1CD1-83792057D0B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="A4336BD4-B56F-4A97-C6DE-772AE4C65D1C" schemaObject="2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06" name="RESPUESTA_USUARIO_PK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>RESPUESTA_USUARIO_PK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A8840EB9-0318-85E6-1CD1-83792057D0B7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="24F52EB0-2130-DAF5-BE18-8671EA252C0A" name="RESPUESTA_USUARIO_EXAMEN_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="C4D17AED-495E-F12B-F62A-2EB3B39BF577"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="7F836F15-44A2-9E7A-90DC-241F3EFDB08D" name="RESPUESTA_USUARIO_PREGUNTA_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D5B011C1-1FEF-EEF5-1DA3-7C9D75A98E2C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,160 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="968B5B5A-AF8B-889F-CCE7-198D652996A0" name="ASIGNACION">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>CBA3FA45-E28D-F376-8E1D-457CB29192B8</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ESTUDIANTE_carnet" id="B5414876-998A-FAA9-4706-2E07225A41AF">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>89ECB5D1-4181-9C8C-2A8F-28EE767E64A3</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6DB62028-6CA4-41D6-EA8B-3C7CE9C00740" referredColumn="A7AEAC0C-B823-C4CE-A8F6-10646DA23BFA"/>
+</associations>
+</Column>
+<Column name="SECCION_cod_curso" id="2A873551-1C75-A1E6-2B3A-47C5E19B2BA7">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>1F41ECA9-2C56-EE0C-5B45-A063ED856567</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D026F0CF-1F69-BA66-5F2C-39125225DB7D" referredColumn="4E85F83B-9A9B-8617-7E8D-5CC416AA267A"/>
+</associations>
+</Column>
+<Column name="SECCION_cod_seccion" id="DC1D88F7-2B17-7D88-65ED-924EBB1EE0C1">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>0E221FC1-139F-71B8-87D1-B10C2FB97FBD</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D026F0CF-1F69-BA66-5F2C-39125225DB7D" referredColumn="313C7551-7556-0A80-0675-0C1400CEB7EB"/>
+</associations>
+</Column>
+<Column name="SECCION_anio" id="8C0EBEC0-F068-BE06-778E-8561CE4A9C32">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>FFDBBC13-0A37-84B1-4EAF-0483E53776BB</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D026F0CF-1F69-BA66-5F2C-39125225DB7D" referredColumn="EBCD9DDC-85EA-6B65-1348-5F3766B80259"/>
+</associations>
+</Column>
+<Column name="SECCION_ciclo" id="5A234225-03B0-59E2-B77A-207DF1CB4F00">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>5BE08B65-21BD-4FD4-4274-F23C5469CF95</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="D026F0CF-1F69-BA66-5F2C-39125225DB7D" referredColumn="78F01882-D8DA-0DDF-3908-7895955138C3"/>
+</associations>
+</Column>
+<Column name="zona" id="4FA8A318-3D97-B8B3-44C8-9F8439DDEA58">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>A4E6C938-B361-E7FB-CA57-A54326746B96</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nota" id="540B142C-1DDE-7306-FF87-65D7DBA7D165">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>D8074DCA-E3CC-C647-E2CD-14E533D6E132</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>3</dataTypePrecision>
+<ownDataTypeParameters>,3,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="B602A42F-B8B3-8990-E8B3-4DCEFC34B199" name="ASIGNACION_PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>985D166E-F540-CA79-239B-66ABF181477D</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5414876-998A-FAA9-4706-2E07225A41AF"/>
+<colUsage columnID="2A873551-1C75-A1E6-2B3A-47C5E19B2BA7"/>
+<colUsage columnID="DC1D88F7-2B17-7D88-65ED-924EBB1EE0C1"/>
+<colUsage columnID="8C0EBEC0-F068-BE06-778E-8561CE4A9C32"/>
+<colUsage columnID="5A234225-03B0-59E2-B77A-207DF1CB4F00"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8644789D-10F2-7629-72D7-447C498F7D49" name="ASIGNACION_ESTUDIANTE_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>13D57626-FD2F-3780-36D4-1A32BECA76EB</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B5414876-998A-FAA9-4706-2E07225A41AF"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="F8216893-5624-CA6D-A6D1-2E378618DEB4" name="ASIGNACION_SECCION_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>8B0B403C-0DBE-E5CB-6B63-B9F5A01AEFFA</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="DC1D88F7-2B17-7D88-65ED-924EBB1EE0C1"/>
+<colUsage columnID="8C0EBEC0-F068-BE06-778E-8561CE4A9C32"/>
+<colUsage columnID="5A234225-03B0-59E2-B77A-207DF1CB4F00"/>
+<colUsage columnID="2A873551-1C75-A1E6-2B3A-47C5E19B2BA7"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

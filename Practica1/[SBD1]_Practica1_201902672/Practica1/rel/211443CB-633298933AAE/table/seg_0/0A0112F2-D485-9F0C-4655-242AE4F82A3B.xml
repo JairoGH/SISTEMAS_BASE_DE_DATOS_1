@@ -1,0 +1,76 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="0A0112F2-D485-9F0C-4655-242AE4F82A3B" name="Escuela_Automovilismo">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>2DC35242-C044-056C-4E82-8F7D1A3C7A53</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<abbreviation>ES_AUTO</abbreviation>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_escuela" id="090687D4-DF0C-7AD8-AD5A-DB8FBFAC307C">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>33DD2979-D062-37EC-ECAA-6E96FE45482F</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="7151E6B1-3527-E091-22C7-A0138FE34974">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>A4F5AA8C-178A-3B59-1319-B920DD5D040E</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>120 CHAR</dataTypeSize>
+<ownDataTypeParameters>120 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="direccion" id="0D89A5BA-FFAB-44CF-BC93-AD8C374C1C9A">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>0FFA556A-95F8-8AB9-083F-D1457F8DE981</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>250 CHAR</dataTypeSize>
+<ownDataTypeParameters>250 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="no_autorizacion" id="3E6E10EA-4BD5-D2A1-1AC6-A9C7DD1C06D1">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>F414E293-7C21-BB72-0A27-CFABEAE450E7</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 CHAR</dataTypeSize>
+<ownDataTypeParameters>50 CHAR,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="9C370C42-BBD4-51FE-C799-6116B9EFAD88" name="Escuela_Automovilismo_PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>4A8EF2B7-46C3-C5D0-9B1D-5114360A051B</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="090687D4-DF0C-7AD8-AD5A-DB8FBFAC307C"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

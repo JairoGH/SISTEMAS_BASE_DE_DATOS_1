@@ -1,0 +1,120 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="7F878B03-94CD-C6D8-F852-E572B2A3A809" name="SECCION">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>E9B51D92-427B-BF3A-577A-C2FE773BCACE</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CURSO_cod_curso" id="4E85F83B-9A9B-8617-7E8D-5CC416AA267A">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>C2755FFB-2E0B-B716-B8BC-9ADC74DD04B7</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="4942791E-05F8-BF1D-2377-AE7E58C30100" referredColumn="101383F2-28F4-9914-55A5-338779824E58"/>
+</associations>
+</Column>
+<Column name="cod_seccion" id="313C7551-7556-0A80-0675-0C1400CEB7EB">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>CF2F8278-2AED-A61E-8BFB-C01276B73336</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>6,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="anio" id="EBCD9DDC-85EA-6B65-1348-5F3766B80259">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>7CAD4B5E-7BEA-61ED-899D-F93517DE67AF</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ciclo" id="78F01882-D8DA-0DDF-3908-7895955138C3">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>4D28B4BF-0782-0FD0-FDD2-FF7D4D7B14FD</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CATEDRATICO_cod_catedratico" id="D6755997-9BEC-1485-4E5F-29AEB1D53CDE">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>75EA580B-96EF-4BD6-A66C-E0D0591ED969</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="924E93A8-DC6F-FEC9-D051-226592F95D93" referredColumn="0E2BA289-9C8E-6125-3261-DA55933FA6BC"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="319C1A8E-C497-D46C-2C4B-5F8385EFB83E" name="SECCION_PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>72EE9576-32B9-649C-BD45-21169BAE1EEF</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="313C7551-7556-0A80-0675-0C1400CEB7EB"/>
+<colUsage columnID="EBCD9DDC-85EA-6B65-1348-5F3766B80259"/>
+<colUsage columnID="78F01882-D8DA-0DDF-3908-7895955138C3"/>
+<colUsage columnID="4E85F83B-9A9B-8617-7E8D-5CC416AA267A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="E18C78CF-B85B-6F94-941C-6036D324D308" name="SECCION_CURSO_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>FEB44CB5-56D5-1882-3C8C-1E298A5DC92D</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4E85F83B-9A9B-8617-7E8D-5CC416AA267A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0BEDAFA3-3C50-6172-A5D9-F73722950B38" name="SECCION_CATEDRATICO_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>A325AE53-8C21-EB95-0395-09183551A2FD</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="D6755997-9BEC-1485-4E5F-29AEB1D53CDE"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

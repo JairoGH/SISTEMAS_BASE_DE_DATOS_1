@@ -1,0 +1,74 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev20c class="oracle.dbtools.crest.model.design.storage.oracle.v20c.TableProxyOraclev20c" name="PREGUNTA" directorySegmentName="seg_0" id="ED510398-2E0B-3066-88A0-535C865B6464">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>1B2BB127-C1F4-6C4C-484A-E1E304DA5A94</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<inMemory>NO</inMemory>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CORRECTA" id="353D0D38-8261-C3EF-80F8-E7CDE168CD2B">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RES1" id="3F55E4BB-A063-F11E-B9D5-285BCA242517">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RES3" id="3FDF6897-7FBF-A750-4E7B-2D62BE8F99F5">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="TEXTO" id="46B44307-05DA-39C5-61C5-D98D4DCC2989">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RES4" id="AA77A51F-8FCB-C733-02E4-28C5CCBE2833">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="ID_PREGUNTA" id="DFBE40E2-3597-E4ED-84DA-D7E1618A0729">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="RES2" id="ECE7B300-3789-7223-A3FE-C66E11C15E59">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:32 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="PREGUNTA_PK" id="56382A17-C68F-322A-6B7B-AB4DE46EC0A3">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<schemaObject>2EB22CB5-859B-9E3A-10A9-5EA0EF56ED06</schemaObject>
+<segment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="PREGUNTA_PK" id="EE9268D7-AA6F-A1D5-F9A5-5A41CBEB4A15">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:40 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<segment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</segment>
+<tableSpace>AECC9D72-306A-53A0-2E53-1C8FA1908333</tableSpace>
+<existingIndex>56382A17-C68F-322A-6B7B-AB4DE46EC0A3</existingIndex>
+<indexSegment>0A8BD4A6-EB1F-FD60-35AE-DB9C3F68D01E</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev20c>

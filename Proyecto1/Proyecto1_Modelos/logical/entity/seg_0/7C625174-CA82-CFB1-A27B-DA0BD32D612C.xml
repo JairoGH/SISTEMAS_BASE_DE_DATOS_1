@@ -1,0 +1,150 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="7C625174-CA82-CFB1-A27B-DA0BD32D612C" name="HORARIO">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 00:26:25 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="cod_seccion" id="AA2E5371-9814-1AF7-E80D-857B18AA04E4">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:01:29 UTC</createdTime>
+<generatorID>667C881C-9581-83B6-DF67-F5746BF6CB0F</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>CF2F8278-2AED-A61E-8BFB-C01276B73336</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="anio" id="D12BEC92-BCAB-4BB9-7CE7-67603E6B79C5">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:01:29 UTC</createdTime>
+<generatorID>667C881C-9581-83B6-DF67-F5746BF6CB0F</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>7CAD4B5E-7BEA-61ED-899D-F93517DE67AF</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ciclo" id="BE80E596-D3E0-D79D-2C4C-801C8EB377BD">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:01:29 UTC</createdTime>
+<generatorID>667C881C-9581-83B6-DF67-F5746BF6CB0F</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>4D28B4BF-0782-0FD0-FDD2-FF7D4D7B14FD</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_periodo" id="1C0240D2-2422-1FD3-DF70-0B621F07FBA1">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:01:37 UTC</createdTime>
+<generatorID>B2126203-35F7-CD98-E76E-9582AE013A37</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>6569360B-7A86-3244-96B5-C420384085CA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_dia" id="C77A79F8-7A88-CE44-B9D8-77EA6CF4E581">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:01:44 UTC</createdTime>
+<generatorID>7F46099B-34E1-A5EA-50E9-382A42F71D27</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>26B6FCC6-679E-D9C8-4590-1D276843F0DC</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_edificio" id="0ABB25BD-62C9-B73D-C5F2-C4EB77A7065F">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:01:48 UTC</createdTime>
+<generatorID>89EF7520-9718-F2D4-1261-D18037AF2292</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>46102AB9-D219-0571-0CFE-5A09A0D105F2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_salon" id="027716DC-FC86-F173-EC24-6F2309C61F83">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:01:48 UTC</createdTime>
+<generatorID>89EF7520-9718-F2D4-1261-D18037AF2292</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>061BE84B-DCD3-F52E-AAB8-4EE48317C1AA</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cod_curso" id="9E730830-5B7E-325E-FD3D-EA50EBC045FE">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 03:12:36 UTC</createdTime>
+<generatorID>667C881C-9581-83B6-DF67-F5746BF6CB0F</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<referedAttribute>C2755FFB-2E0B-B716-B8BC-9ADC74DD04B7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9DBD5225-1389-3581-0CB3-D9BFBE935D06" name="HORARIO PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 02:01:24 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<engineerTo>
+<item key="33D46370-22AE-7D6F-C16C-5E09373DEE8E" value="true"/>
+</engineerTo>
+<pk>true</pk>
+</identifier>
+</identifiers>
+</Entity>

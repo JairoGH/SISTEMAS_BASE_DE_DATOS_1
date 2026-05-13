@@ -1,0 +1,169 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="B2CA2B35-5D2C-F70F-0F92-46F7C971218D" name="Evaluacion">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>B3C03CF3-7D63-4C2F-911A-81F83D4C2165</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_evaluacion" id="EF5E477B-0C28-5E0F-3996-AB6C0C485E08">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>EC658CCD-AFEB-01AC-633B-6AC44182C9B2</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="11293AE2-C1FB-BC81-92DB-6934495A5FFB">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>F214924B-4020-729C-3F22-6356294C0AC2</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>91229484-D19C-D458-8647-333C7FFE7B60</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="correlativo" id="BFE93592-F633-D4D0-53AA-CEADE018B8F1">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>2B63E280-D540-CD42-395B-67F82F5098EE</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_persona" id="39E0F29B-51FB-BBE8-47BF-4A5614D7DBE4">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>A06D413F-071F-22F8-077E-A75AA6F67D90</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="7928172B-224F-7715-5D50-CF6BC511C09C" referredColumn="25F6C4F1-4E18-98B3-10C9-FD6891723FF3"/>
+</associations>
+</Column>
+<Column name="id_centro" id="0C390120-FBBE-42EC-FE8B-87660F7C7F5B">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>2E551960-7E62-F6AC-52BA-450BF98AF10C</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="656374C9-3D96-D6A4-2843-A9352885257E" referredColumn="114B7F13-29E1-3310-3FA1-DDAD21DB4BFB"/>
+</associations>
+</Column>
+<Column name="id_empleado_atiende" id="EDD935B2-E508-A7E9-E5D3-90768591D415">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>113521D4-9307-D631-6C0B-DE8EF886805E</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="id_empleado_instructor" id="1F0E4A95-6D22-5962-05CE-3E9F0CCD1F27">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>A2A61CC5-6D5E-E3FB-5917-1BD2F862ED4A</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="02E2F571-B151-1013-56C9-0024BB45F4E7" referredColumn="4A12B14E-541B-C95E-8EEB-723A6C730AD6"/>
+</associations>
+</Column>
+<Column name="resultado_teorico" id="710D2760-23BE-3AE6-8A18-26EB81DEF266">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>DC534B58-F52B-5692-B221-D939C54DAF63</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="resultado_practico" id="0E6B2796-8EA2-7365-FDA7-BA91091F6775">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>5B034632-9088-5D9E-D278-A5F182A6D0BA</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="BFA130A4-9DF7-F6CE-0AF4-6E76E205053C" name="Evaluacion_PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 03:01:39 UTC</createdTime>
+<generatorID>559D7F5C-51B0-A368-BABB-9340E6C6AC4A</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="EF5E477B-0C28-5E0F-3996-AB6C0C485E08"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="49E36E24-063E-7BF7-5B2B-D3F4438D5048" name="FK_EVAL_PER">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>F24689FA-8EE5-A0E4-2AAA-B36FACE97CF8</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="39E0F29B-51FB-BBE8-47BF-4A5614D7DBE4"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="8B94AB31-D7A2-B1A7-B104-0958E4FE7047" name="FK_EVAL_CEN">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>05F54ECD-C00D-C11D-DAD6-12038CF46A43</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="0C390120-FBBE-42EC-FE8B-87660F7C7F5B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="05B2C3D4-71E0-536D-46D5-810AD71C7CF1" name="FK_EVAL_EMP">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:40:24 UTC</createdTime>
+<generatorID>96E1BC97-1D73-4DCD-E570-08E4A1DE0359</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1F0E4A95-6D22-5962-05CE-3E9F0CCD1F27"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

@@ -1,0 +1,101 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="1C6AF1A0-EB7A-2D7D-392E-C5A39B2D0298" name="PREREQ">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>E730359B-87F1-65DC-9C7B-F5A6AAA30D49</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="PENSUM_PC_cod_carrera" id="F5EA0943-B9A6-E4BF-CD9B-8D0311A7365E">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>2DC30825-0920-A097-C234-DC5BB15A627B</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3779860C-013F-D7B4-66A5-C45C6D807B1C" referredColumn="7164673B-DF47-5BDC-4F9C-11A34BB022E2"/>
+</associations>
+</Column>
+<Column name="cod_curso_prereq" id="3A8AA236-82F0-CDFF-2DBF-26E86B1C4B64">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>B5123F38-EF59-20CB-8EEE-C530F9CD10FF</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,5,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PENSUM_PLAN_cod_plan" id="092E17BC-C86A-6106-1A8D-57178299317E">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:18:15 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3779860C-013F-D7B4-66A5-C45C6D807B1C" referredColumn="03788A7C-585D-6114-E3C9-96AC49D6F8CB"/>
+</associations>
+</Column>
+<Column name="PENSUM_CURSO_cod_curso" id="C1E4140A-C962-F66F-52E3-5B24FF1A9173">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:18:15 UTC</createdTime>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="3779860C-013F-D7B4-66A5-C45C6D807B1C" referredColumn="24056FBF-C520-579F-B32A-DF3CE30D2965"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="344FE5F5-8E77-7A22-9514-B638A9987E5E" name="PREREQ_PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>1FEADA02-91B4-AB65-6118-6748F7F7D99C</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5EA0943-B9A6-E4BF-CD9B-8D0311A7365E"/>
+<colUsage columnID="092E17BC-C86A-6106-1A8D-57178299317E"/>
+<colUsage columnID="C1E4140A-C962-F66F-52E3-5B24FF1A9173"/>
+<colUsage columnID="3A8AA236-82F0-CDFF-2DBF-26E86B1C4B64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="C9816658-12E5-4F9B-9FAA-0349EE35F89F" name="PREREQ_PENSUM_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>5B85807F-2855-B2BA-C50D-42CE25CFAB84</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F5EA0943-B9A6-E4BF-CD9B-8D0311A7365E"/>
+<colUsage columnID="092E17BC-C86A-6106-1A8D-57178299317E"/>
+<colUsage columnID="C1E4140A-C962-F66F-52E3-5B24FF1A9173"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

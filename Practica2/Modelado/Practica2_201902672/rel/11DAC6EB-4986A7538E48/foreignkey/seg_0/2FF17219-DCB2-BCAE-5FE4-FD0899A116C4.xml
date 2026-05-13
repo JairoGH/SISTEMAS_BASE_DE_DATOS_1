@@ -1,0 +1,19 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<FKIndexAssociation class="oracle.dbtools.crest.model.design.relational.FKIndexAssociation" directorySegmentName="seg_0" id="2FF17219-DCB2-BCAE-5FE4-FD0899A116C4" containerWithKeyObject="0FA4A891-98CB-7DCA-1031-FC8D24A6CAEA" localFKIndex="56F06098-A7F3-AA50-DF4B-2F8B0420D98A" name="REGISTRO_MUNICIPIO_FK">
+<sourceConnName>Practica2</sourceConnName>
+<sourceObjSchema>JAIRO</sourceObjSchema>
+<sourceObjName>REGISTRO_MUNICIPIO_FK</sourceObjName>
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:30:42 UTC</createdTime>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<referredTableLongName>MUNICIPIO</referredTableLongName>
+<deleteRule>NO ACTION</deleteRule>
+<referredTableID>14480D9C-2512-0B78-7BDD-5C02024C1DC2</referredTableID>
+<keyObject>3D0B46B0-0D52-B3AC-BA09-0B2F614615F5</keyObject>
+<referredKeyID>3D0B46B0-0D52-B3AC-BA09-0B2F614615F5</referredKeyID>
+<mandatory>true</mandatory>
+<refColNames>ID_MUNICIPIO</refColNames>
+<transferable>true</transferable>
+<rely>false</rely>
+<columnDependencyConstraintGenerateInDDL>true</columnDependencyConstraintGenerateInDDL>
+</FKIndexAssociation>

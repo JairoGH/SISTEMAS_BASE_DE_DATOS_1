@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="RESPUESTA_PRACTICO_USUARIO_EXAMEN_FK" directorySegmentName="seg_0" id="3176927C-CEEB-F01E-86C5-38E07ED0F08D">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-02 17:31:44 UTC</createdTime>
+<generatorID>1AD33E02-8EFC-0403-F20C-47CE96F39288</generatorID>
+<ownerDesignName>Practica2_201902672</ownerDesignName>
+<engineerTo>
+<item key="11DAC6EB-A704-F5FA-CABF-4986A7538E48" value="true"/>
+</engineerTo>
+<sourcePk>B4BD70F3-843F-123A-2B2C-E58D2DA43C7D</sourcePk>
+<identifying>false</identifying>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>86FFEB1E-23A9-C569-4C27-CCF24CE455C0</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5493BC62-DFAC-61FE-3E08-70237540ED69</targetEntity>
+<transferable>true</transferable>
+<deleteRule>NO ACTION</deleteRule>
+</Relation>

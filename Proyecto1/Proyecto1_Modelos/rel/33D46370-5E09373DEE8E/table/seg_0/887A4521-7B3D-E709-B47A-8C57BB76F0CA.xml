@@ -1,0 +1,210 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="887A4521-7B3D-E709-B47A-8C57BB76F0CA" name="HORARIO">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>7C625174-CA82-CFB1-A27B-DA0BD32D612C</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDDLTransformationScript>true</useDDLTransformationScript>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="SECCION_cod_seccion" id="F6EEA30B-1F94-511F-2119-9AE64ABD7704">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>AA2E5371-9814-1AF7-E80D-857B18AA04E4</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>6</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C9CF94B-9BDB-4E78-1AF3-178579DB110B" referredColumn="313C7551-7556-0A80-0675-0C1400CEB7EB"/>
+</associations>
+</Column>
+<Column name="SECCION_anio" id="EA91B6F4-21F8-42D8-4792-C0084D2EA875">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>D12BEC92-BCAB-4BB9-7CE7-67603E6B79C5</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C9CF94B-9BDB-4E78-1AF3-178579DB110B" referredColumn="EBCD9DDC-85EA-6B65-1348-5F3766B80259"/>
+</associations>
+</Column>
+<Column name="SECCION_ciclo" id="B0951C18-1569-5D75-8B36-CA7F72A149E3">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>BE80E596-D3E0-D79D-2C4C-801C8EB377BD</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C9CF94B-9BDB-4E78-1AF3-178579DB110B" referredColumn="78F01882-D8DA-0DDF-3908-7895955138C3"/>
+</associations>
+</Column>
+<Column name="PERIODO_cod_periodo" id="50E7CC7C-91CF-C879-91E3-2A0A2F057253">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>1C0240D2-2422-1FD3-DF70-0B621F07FBA1</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8D5A1723-CEBF-0102-1CAA-28F56594D4CB" referredColumn="29CA4EC0-0008-E19F-924B-8146317E6CCE"/>
+</associations>
+</Column>
+<Column name="DIA_cod_dia" id="2169EAEF-409A-606C-B133-5FA20C4AFDD8">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>C77A79F8-7A88-CE44-B9D8-77EA6CF4E581</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>2</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="1789562E-EE7B-284F-3F99-E59FFCB7B565" referredColumn="A616A25C-5FB1-7700-4023-277EA171DFA3"/>
+</associations>
+</Column>
+<Column name="SALON_cod_edificio" id="4215C01C-BEED-22C9-44E4-86C845A1F936">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>0ABB25BD-62C9-B73D-C5F2-C4EB77A7065F</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>10</dataTypeSize>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A98BBFF2-EC62-AB5E-8162-C75DA50D974D" referredColumn="1BFBCA68-1DA8-23BC-CD24-7FDA497209CE"/>
+</associations>
+</Column>
+<Column name="SALON_cod_salon" id="4001AC21-5928-2043-1E33-042BC4186226">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>027716DC-FC86-F173-EC24-6F2309C61F83</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="A98BBFF2-EC62-AB5E-8162-C75DA50D974D" referredColumn="4EF9A070-1832-32AB-4229-14E21FB90CA3"/>
+</associations>
+</Column>
+<Column name="SECCION_cod_curso" id="745C9683-013A-A622-42A6-D87D69CCEBCA">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>9E730830-5B7E-325E-FD3D-EA50EBC045FE</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>5</dataTypePrecision>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="6C9CF94B-9BDB-4E78-1AF3-178579DB110B" referredColumn="4E85F83B-9A9B-8617-7E8D-5CC416AA267A"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="CCA6A412-5817-0ABC-4BF3-9BF8B45468E6" name="HORARIO_PK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>9DBD5225-1389-3581-0CB3-D9BFBE935D06</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="745C9683-013A-A622-42A6-D87D69CCEBCA"/>
+<colUsage columnID="F6EEA30B-1F94-511F-2119-9AE64ABD7704"/>
+<colUsage columnID="EA91B6F4-21F8-42D8-4792-C0084D2EA875"/>
+<colUsage columnID="B0951C18-1569-5D75-8B36-CA7F72A149E3"/>
+<colUsage columnID="50E7CC7C-91CF-C879-91E3-2A0A2F057253"/>
+<colUsage columnID="2169EAEF-409A-606C-B133-5FA20C4AFDD8"/>
+<colUsage columnID="4215C01C-BEED-22C9-44E4-86C845A1F936"/>
+<colUsage columnID="4001AC21-5928-2043-1E33-042BC4186226"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="FDA705F7-407E-0D14-91DE-E389EA96CC84" name="HORARIO_SECCION_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>667C881C-9581-83B6-DF67-F5746BF6CB0F</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="F6EEA30B-1F94-511F-2119-9AE64ABD7704"/>
+<colUsage columnID="EA91B6F4-21F8-42D8-4792-C0084D2EA875"/>
+<colUsage columnID="B0951C18-1569-5D75-8B36-CA7F72A149E3"/>
+<colUsage columnID="745C9683-013A-A622-42A6-D87D69CCEBCA"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="272777D9-A9BE-9439-B4B7-EF2B6F591838" name="HORARIO_PERIODO_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>B2126203-35F7-CD98-E76E-9582AE013A37</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="50E7CC7C-91CF-C879-91E3-2A0A2F057253"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="3367212F-2C7E-62FB-ECDC-46CBC7344F5E" name="HORARIO_DIA_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>7F46099B-34E1-A5EA-50E9-382A42F71D27</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2169EAEF-409A-606C-B133-5FA20C4AFDD8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="17F50FC4-793E-8BB5-9076-0F1193278334" name="HORARIO_SALON_FK">
+<createdBy>jairogo</createdBy>
+<createdTime>2026-03-23 23:16:00 UTC</createdTime>
+<generatorID>89EF7520-9718-F2D4-1261-D18037AF2292</generatorID>
+<ownerDesignName>Proyecto1_Modelos</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4215C01C-BEED-22C9-44E4-86C845A1F936"/>
+<colUsage columnID="4001AC21-5928-2043-1E33-042BC4186226"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

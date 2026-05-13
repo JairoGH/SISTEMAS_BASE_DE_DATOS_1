@@ -1,0 +1,113 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="3BF92555-74C9-F9C5-DDB6-0A6F4141A7A7" name="Evaluacion_Preguntas">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 00:48:12 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_eva_preg" id="27F8DE83-7697-11EB-B14D-D196B6E25BA3">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:09:53 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="puntaje_obtenido" id="CB22DABE-72CB-C211-5461-D16C90DE6DA0">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:11:14 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="observacion" id="09DBAD64-C5F3-2F89-36A9-75D39FFDFF25">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:11:38 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT028</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_pregunta" id="479482E3-DCA8-C9BF-510B-4B061A5128FE">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:34:02 UTC</createdTime>
+<generatorID>F5B906E3-A2AD-F99D-C4E8-D25D46E14910</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<referedAttribute>BCBF7E9D-5B82-468C-0A8B-A8CA803CE5BE</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_evaluacion" id="9265A35F-6438-DE03-F49A-4E38AC765356">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:34:38 UTC</createdTime>
+<generatorID>059ABD9C-1EF8-AEA9-6F59-173BC7DDF2CE</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<referedAttribute>EC658CCD-AFEB-01AC-633B-6AC44182C9B2</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_opcion" id="4E745D1C-FB0B-CFB3-3AE6-BB5E078868BE">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-26 05:38:19 UTC</createdTime>
+<generatorID>3AA06EA3-5F1B-5EBB-6410-FA82548EA07C</generatorID>
+<ownerDesignName>Practica1</ownerDesignName>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="true"/>
+</engineerTo>
+<referedAttribute>8F3EB5BF-683D-EA61-1AB0-B5B74822B169</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="672DC31C-43F7-4D2B-22BE-DFDFDE3172AD" name="Evaluacion_Preguntas PK">
+<createdBy>jairo</createdBy>
+<createdTime>2026-02-25 01:10:18 UTC</createdTime>
+<ownerDesignName>Practica1</ownerDesignName>
+<shouldEngineer>false</shouldEngineer>
+<engineerTo>
+<item key="211443CB-A33A-4010-CD3F-633298933AAE" value="false"/>
+</engineerTo>
+<pk>true</pk>
+<newElementsIDs>27F8DE83-7697-11EB-B14D-D196B6E25BA3</newElementsIDs>
+<usedAttributes>
+<attributeRef>27F8DE83-7697-11EB-B14D-D196B6E25BA3</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
